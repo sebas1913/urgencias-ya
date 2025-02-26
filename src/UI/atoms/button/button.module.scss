@@ -1,0 +1,23 @@
+@import '../../../styles/variables';
+
+.button {
+    font-family: var(--font-principal);
+    cursor: pointer;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.transparent {
+    background-color: transparent;
+    font-weight: 600;
+    color: $secondary-color;
+    letter-spacing: 0.1rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
